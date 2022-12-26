@@ -15,8 +15,7 @@ class _OnBoardingState extends State<OnBoarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Stack(
-          children: [
+        body: Stack(children: [
       PageView(
         controller: _control,
         children: const [
@@ -32,7 +31,7 @@ class _OnBoardingState extends State<OnBoarding> {
             controller: _control,
             count: 3,
             effect: const WormEffect(
-              dotColor: Colors.white,
+              dotColor: Color.fromARGB(255, 112, 30, 34),
               dotHeight: 12,
               dotWidth: 12,
               offset: 12,

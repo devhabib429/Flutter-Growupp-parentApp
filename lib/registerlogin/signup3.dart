@@ -121,7 +121,7 @@ class _signUp3State extends State<signUp3> {
                                   backgroundColor:
                                       Color.fromRGBO(74, 42, 81, 1),
                                   padding:
-                                      EdgeInsets.fromLTRB(120, 15, 120, 15)),
+                                      EdgeInsets.fromLTRB(100, 15, 100, 15)),
                               child: Text("Create"))
                         ],
                       )),
